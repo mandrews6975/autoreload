@@ -3,5 +3,6 @@
     "outDir": "./build"
   },
   "include": ["src/**/*"],
+  "exclude": ["src/**/*.test.ts"],
   "extends": "@tsconfig/node20/tsconfig.json"
 }
